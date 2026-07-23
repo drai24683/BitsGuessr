@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitsGuessr HomePage</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <main class="page-wrapper">
+        <section class="quiz-card">
+            <header class="quiz-header">
+                <h1>BitsGuessr</h1>
+                <p class="quiz-subtitle">Click the correct answer for the image below.</p>
+            </header>
+
+            <div class="image-card">
+                <img id="quiz-image" src="../images/B_Dome.jpeg" alt="Quiz image">
+            </div>
+
+            <div class="question-box">
+                <h2 id="quiz-question">Which label matches the image?</h2>
+            </div>
+
+            <div class="options-grid" id="options-grid">
+                <!-- Option buttons inserted by JavaScript -->
+            </div>
+
+            <div id="result-message" class="result-message"></div>
+            <div class="next-button-container">
+                <button id="next-button" class="next-button" hidden>Next</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="../static/script.js" defer></script>
+</body>
+</html>
